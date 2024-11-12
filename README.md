@@ -2,9 +2,15 @@
 
 This is a simple demo of the Forge API by Nous Research. It demonstrates how to use the asynchronous API to trigger a reasoning completion and wait for the result.
 
+If you want to jump straigt to the code, see: [src/forge-api-demo/cli.py](https://github.com/NousResearch/forge-api-demo/blob/main/src/forge-api-demo/cli.py).
+
+
 See also:
 * [About Forge API](https://gist.github.com/DamascusGit/c1523fb166109aa6af81af986f856f2d)
 * [API reference](https://forge-api.nousresearch.com/docs)
+
+
+
 
 ## Setup
 
