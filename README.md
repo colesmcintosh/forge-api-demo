@@ -167,7 +167,8 @@ Tracking (`--track`) adds *very verbose* reasoning logs to the output.
 > FORGE_API_KEY=<YOUR_API_KEY> poetry run python src/forge-api-demo/cli.py -p "How much wood would a theoretical 80kg woodchuck chuck assuming lunar gravity and a competitive woodchucking environment?" --track
 ```
 
-```json{
+```json
+{
   "metadata": {
     "id": "48557f1e-b7f6-4774-b088-1c8b307aa395",
     "config": {
