@@ -22,9 +22,13 @@ poetry install
 
 ## Run
 
-Here's how to run the command 
+Here's how to run the command and see its help output:
 ```bash
-poetry run python src/forge-api-demo/cli.py -h
+> poetry run python src/forge-api-demo/cli.py -h
+```
+
+Which shows:
+```
 usage: forge-api-demo [-h] -p PROMPT [-r {fast,medium,slow}] [-t]
 
 Simple demo of the Forge API by Nous Research. Run with env var FORGE_API_KEY set.
@@ -40,7 +44,7 @@ options:
 For more information, see: https://forge-api.nousresearch.com/docs
 ```
 
-Example:
+Example completion run:
 
 ```bash
 FORGE_API_KEY=<YOUR_API_KEY> poetry run python src/forge-api-demo/cli.py -p "How much wood would a theoretical 80kg woodchuck chuck assuming lunar gravity and a competitive woodchucking environment?"
