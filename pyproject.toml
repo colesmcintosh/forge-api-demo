@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "forge-api-demo"
+version = "0.1.0"
+description = "Simple demo showing how to use the Forge API by Nous Research"
+authors = ["Robin Fernandes <robin@soal.org>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
