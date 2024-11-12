@@ -55,7 +55,12 @@ FORGE_API_KEY=<YOUR_API_KEY> poetry run python src/forge-api-demo/cli.py -p "How
 
 ### Without tracking
 
-Given the command:
+If I want to ask:
+
+> How much wood would a theoretical 80kg woodchuck chuck assuming lunar gravity and a competitive woodchucking environment?
+
+
+I can run the command:
 
 ```bash
 > FORGE_API_KEY=<YOUR_API_KEY> poetry run python src/forge-api-demo/cli.py -p "How much wood would a theoretical 80kg woodchuck chuck assuming lunar gravity and a competitive woodchucking environment?"
